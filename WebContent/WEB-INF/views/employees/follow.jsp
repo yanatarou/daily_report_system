@@ -7,7 +7,7 @@
                 <c:out value="${flush}"></c:out>
             </div>
         </c:if>
-        <h2>従業員一覧</h2>
+        <h2>フォロー一覧</h2>
         <table id="employee_list">
             <tbody>
                 <tr>
@@ -47,7 +47,6 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="<c:url value='/employees/new' />">新規従業員の登録</a></p>
 
     </c:param>
 </c:import>

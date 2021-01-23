@@ -41,6 +41,12 @@
                     </tbody>
                 </table>
 
+                <%-- フォローボタン追加 --%>
+                 <form method="POST" action="<c:url value='/employees/follow' />">
+                 <input type="submit" name="${employee.id}" value="フォローする">
+                 <input type="hidden" name="follow_id" value="${employee.id}" />
+                 </form>
+
                 <p><a href="<c:url value='/employees/edit?id=${employee.id}' />">この従業員情報を編集する</a></p>
             </c:when>
             <c:otherwise>
