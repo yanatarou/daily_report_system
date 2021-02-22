@@ -9,7 +9,7 @@
             </div>
         </c:if>
         <h2>日報管理システムへようこそ</h2>
-        <h3>【 "${who}" の日報　一覧】</h3>
+        <h3>【 "${follow_id}" の日報　一覧】</h3>
         <table id="report_list">
             <tbody>
                 <tr>
